@@ -1,0 +1,62 @@
+/*your custom css goes here*/
+
+.text-decoration-line-through {
+    text-decoration: line-through !important;
+}
+
+.text-decoration-underline {
+    text-decoration: underline !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.btn-primary, .btn-soft-primary:hover, .btn-outline-primary:hover{
+    background-color: #3f5c3d !important;
+    border-color: #3f5c3d !important;
+    color: white !important;
+}
+
+.btn-warning, .btn-soft-warning:hover, .btn-outline-warning:hover{
+    background-color: #efc088 !important;
+    border-color: #edbb83 !important;
+}
+
+.bread nav {
+    display: inline-block;
+    max-width: 250px;
+}
+.bread .breadcrumb {
+    all: unset;
+}
+.bread .breadcrumb li {
+    display: inline-block;
+}
+.bread a {
+    pointer-events: none;
+    cursor: sw-resize;
+}
+.bread .breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    color: #fa921c;
+    font-weight: 500;
+    font-size: 18PX;
+}
+.bread .breadcrumb li {
+    display: inline-block;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .2rem;
+    color: #6c757d;
+    content: "/";
+}
+
+.required{
+    color: red !important;
+}
